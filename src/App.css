@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*{
+  font-family: 'Baloo Paaji 2',sans-serif !important;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.vh100 {
+  height: 100vh;
+  width: 100%;
+}
+.upload-container {
+  position: relative;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.file-input {
+  display: none;
+}
+
+.custom-file-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-label:hover {
+  background-color: #45a049;
+}
+
+.custom-file-label:active {
+  background-color: #388e3c;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+.section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 128, 255, 0.2);
+  pointer-events: none;
+}
+.section-1 {
+  background-image: url(../public/img/anime4.jpg);
+  z-index: 11;
+}
+.section-2 {
+  background-image: url(../public/img/anime2.jpg);
+  z-index: 22;
+}
+.section-3 {
+  background-image: url(../public/img/anime1.jpg);
+  z-index: 33;
+}
+.section-4 {
+  background-image: url(../public/img/anime3.jpg);
+  z-index: 44;
+}
+.section-5 {
+  background-image: url(../public/img/anime5.jpg);
+  z-index: 55;
+}
+.section-6 {
+  background-image: url(../public/img/anime6.jpg);
+  z-index: 66;
 }
