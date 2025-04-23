@@ -58,7 +58,7 @@
   pointer-events: none;
 }
 .section-1 {
-  background-image: url(../public/img/anime4.jpg);
+  background-image: url(../public/img/anime1.jpg);
   z-index: 11;
 }
 .section-2 {
@@ -66,11 +66,11 @@
   z-index: 22;
 }
 .section-3 {
-  background-image: url(../public/img/anime1.jpg);
+  background-image: url(../public/img/anime3.jpg);
   z-index: 33;
 }
 .section-4 {
-  background-image: url(../public/img/anime3.jpg);
+  background-image: url(../public/img/anime4.jpg);
   z-index: 44;
 }
 .section-5 {
